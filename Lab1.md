@@ -30,7 +30,7 @@ It outputted an error message because the cd command can only be run on a direct
   [user@sahara ~/lecture1]$ ls
   Hello.class  Hello.java  messages  README
 }
-It listed 
+It listed all files and folders that are within the directory lecture1. Since we did not give it an argument, the ls command listed out the files within the directory we are currently in. 
 ```
 **With a path to a directory**
 ```
