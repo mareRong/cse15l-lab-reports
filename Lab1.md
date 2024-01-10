@@ -48,9 +48,9 @@
 {
   [user@sahara ~]$ cat
 
-  It runs forever
 }
 ```
+It runs forever!
 **With a path to a directory**
 ```
 {
