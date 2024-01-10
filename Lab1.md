@@ -5,6 +5,7 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$ 
 }
+The directory stayed at home and did not change because no arguments (path to directory) are being inputted to change the directory.
 ```
 **With a path to a directory**
 ```
@@ -12,6 +13,7 @@
   [user@sahara ~]$ cd lecture1
   [user@sahara ~/lecture1]$ 
 }
+The directory changed from home to lecture1 because we ran a command to change the directory with a path to lecture1. 
 ```
 **With a path to a file**
 ```
@@ -19,6 +21,7 @@
   [user@sahara ~/lecture1]$ cd messages/en-us.txt
   bash: cd: messages/en-us.txt: Not a directory
 }
+It outputted an error message because the cd command can only be run on a directory, not a specific file. 
 ```
 # ls
 **With No Arguments**
@@ -27,6 +30,7 @@
   [user@sahara ~/lecture1]$ ls
   Hello.class  Hello.java  messages  README
 }
+It listed 
 ```
 **With a path to a directory**
 ```
@@ -49,8 +53,8 @@
   [user@sahara ~]$ cat
 
 }
-```
 It runs forever!
+```
 **With a path to a directory**
 ```
 {
