@@ -30,7 +30,8 @@ It outputted an error message because the cd command can only be run on a direct
   [user@sahara ~/lecture1]$ ls
   Hello.class  Hello.java  messages  README
 }
-It listed all files and folders that are within the directory lecture1. Since we did not give it an argument, the ls command listed out the files within the directory we are currently in. 
+It listed all files and folders that are within the directory lecture1. Since we did not give it an argument, the ls
+command listed out the files within the directory we are currently in. 
 ```
 **With a path to a directory**
 ```
@@ -38,6 +39,7 @@ It listed all files and folders that are within the directory lecture1. Since we
   [user@sahara ~/lecture1]$ ls messages
   en-us.txt  es-mx.txt  ja.txt  zh-cn.txt
 }
+It listed out all files that are within the directory messages because we inputted a directory 
 ```
 **With a path to a file**
 ```
