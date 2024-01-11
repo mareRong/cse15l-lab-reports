@@ -5,7 +5,7 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$ 
 }
-The directory stayed at home and did not change because no arguments (path to directory) are being inputted to change the directory.
+The working directory stayed at home and did not change because no arguments (path to directory) are being inputted to change the directory.
 ```
 **With a path to a directory**
 ```
@@ -21,7 +21,8 @@ The directory changed from home to lecture1 because we ran a command to change t
   [user@sahara ~/lecture1]$ cd messages/en-us.txt
   bash: cd: messages/en-us.txt: Not a directory
 }
-It outputted an error message because the cd command can only be run on a directory, not a specific file. 
+The working directory is lecture1. The command outputted an error message because the cd command can only be run on
+a directory, not a specific file. 
 ```
 # ls
 **With No Arguments**
@@ -31,7 +32,7 @@ It outputted an error message because the cd command can only be run on a direct
   Hello.class  Hello.java  messages  README
 }
 It listed all files and folders that are within the directory lecture1. Since we did not give it an argument, the ls
-command listed out the files within the directory we are currently in. 
+command listed out the files within the working directory we are currently in. 
 ```
 **With a path to a directory**
 ```
@@ -39,7 +40,8 @@ command listed out the files within the directory we are currently in.
   [user@sahara ~/lecture1]$ ls messages
   en-us.txt  es-mx.txt  ja.txt  zh-cn.txt
 }
-It listed out all files that are within the directory messages because we inputted a directory 
+The working directory is lecture1. The command listed out all files that are within the directory messages because
+we inputted a path to a new directory for the command to list files in the asked directory. 
 ```
 **With a path to a file**
 ```
@@ -47,6 +49,8 @@ It listed out all files that are within the directory messages because we inputt
   [user@sahara ~/lecture1/messages]$ ls en-us.txt
   en-us.txt
 }
+The working directory is messages. The command returned en-us.txt because our argument  indicated a specific file
+for the ls command to list.
 ```
 # cat
 **With No Arguments**
