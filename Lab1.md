@@ -58,9 +58,11 @@ argument for the ls command to list.
 ```
 {
   [user@sahara ~]$ cat
-
+  hi
+  hi
 }
-The working directory is home. The command never stopped running because
+The working directory is home, and running the cat command on its own has an empty output. However, we could
+continue to type into the terminal, where the same value we inputted will be returned to us as an output.
 ```
 **With a path to a directory**
 ```
