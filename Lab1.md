@@ -61,8 +61,10 @@ argument for the ls command to list.
   hi
   hi
 }
-The working directory is home, and running the cat command on its own has an empty output. However, we could
-continue to type into the terminal, where the same value we inputted will be returned to us as an output.
+The working directory is home, and running the cat command on its own duplicates whatever we type into the
+terminal. The cat command takes an argument and returns the content within the file provided, and since we do
+not have an input argument, the cat command waits for the user to input something and prints out the intake
+value.
 ```
 **With a path to a directory**
 ```
