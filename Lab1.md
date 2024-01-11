@@ -5,7 +5,8 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$ 
 }
-The working directory stayed at home and did not change because no arguments (path to directory) are being inputted to change the directory.
+The working directory stayed at home and did not change because no arguments (path to directory) are being inputted
+to change the directory.
 ```
 **With a path to a directory**
 ```
@@ -59,7 +60,7 @@ argument for the ls command to list.
   [user@sahara ~]$ cat
 
 }
-The working directory is home. The command never stopped running becuase
+The working directory is home. The command never stopped running because
 ```
 **With a path to a directory**
 ```
@@ -77,5 +78,5 @@ file, not a directory, so that no content can be outputted.
   Hello World!
 }
 The working directory is lecture1. The command returned the content within en-us.txt file because we inputted
-a path to a file as an argument for the command to retrieve content from. 
+a path to a file as an argument for the command to retrieve content. 
 ```
