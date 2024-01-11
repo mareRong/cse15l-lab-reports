@@ -49,8 +49,8 @@ we inputted a path to a new directory for the command to list files in the asked
   [user@sahara ~/lecture1/messages]$ ls en-us.txt
   en-us.txt
 }
-The working directory is messages. The command returned en-us.txt because our argument  indicated a specific file
-for the ls command to list.
+The working directory is messages. The command returned en-us.txt because we indicated a specific file as the
+argument for the ls command to list.
 ```
 # cat
 **With No Arguments**
@@ -59,7 +59,7 @@ for the ls command to list.
   [user@sahara ~]$ cat
 
 }
-It runs forever!
+The working directory is home. The command never stopped running becuase
 ```
 **With a path to a directory**
 ```
@@ -67,6 +67,8 @@ It runs forever!
   [user@sahara ~/lecture1]$ cat messages
   cat: messages: Is a directory
 }
+The working directory is lecture 1. The command returned an error because the cat command should be run on a
+file, not a directory, so that no content can be outputted.
 ```
 **With a path to a file**
 ```
@@ -74,4 +76,6 @@ It runs forever!
   [user@sahara ~/lecture1]$ cat messages/en-us.txt
   Hello World!
 }
+The working directory is lecture1. The command returned the content within en-us.txt file because we inputted
+a path to a file as an argument for the command to retrieve content from. 
 ```
