@@ -65,8 +65,9 @@ class ChatServer {
 ![image](login.png)
 
 # Part 3
-In the past two weeks, I learned how to create and code my own server and open up a new port.
-I also learned the different components of a URL, such as path and query. 
+In the past two weeks, I learned how to create and code my own server and open up a new port. Along
+with the knowledge of how to acquire different components of a URL, such as path and query. Moreover,
+I learned new terminal commands such as mkdir, ssh, and scp. 
 
 
 
