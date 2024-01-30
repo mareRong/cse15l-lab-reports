@@ -1,6 +1,5 @@
 # Part 1
 **ChatServer Code**
-
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -34,5 +33,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-
 ```
+
+**Screenshot Result**
+![image]
