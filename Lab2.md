@@ -37,6 +37,7 @@ class ChatServer {
 
 **Screenshot Result**
 ![image](pic1.png)
+
 - Method String handleRequest(URI URL) is called
 - The argument to this method is the URI object named url, which is our port's url. The relevant
   field of this class is the String message, which is used to accumulate the inputs for different
@@ -46,8 +47,10 @@ class ChatServer {
   method, url.getPath() is used to get the path component of the URI, and url.getQuery() gets the
   query component of the URI. Then the three split() is used to split the query three times to get
   the two key components, userName and stringInfo that compose the message output.
+
   
 ![image](pic2.png)
+
 - Method String handleRequest(URI URL) is called
 - The argument to this method is the URI object named url. The relevant field of this class is
   the String message, which is used to accumulate the inputs for different users. Other relevant
