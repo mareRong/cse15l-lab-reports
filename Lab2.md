@@ -60,8 +60,13 @@ class ChatServer {
   is split from the path and appended into a String message.
 
 # Part 2
+**Absolute Path**
 ![image](absolutePath.png)
+
+**ls SSH**
 ![image](lsCommand.png)
+
+**Successful Login**
 ![image](login.png)
 
 # Part 3
