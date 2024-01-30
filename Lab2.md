@@ -37,7 +37,24 @@ class ChatServer {
 
 **Screenshot Result**
 ![image](pic1.png)
-
+- Method String handleRequest(URI URL) is called
+- The argument to this method is the URI object named url, which is our port's url. The relevant
+  field of this class is the String message, which is used to accumulate the inputs for different
+  users. It's updated when a "/add-message" path is received.
+- In this specific request, the String message changed from nothing to "jpolitz: Hello". In this
+  method, url.getPath() is used to get the path component of the URI, and url.getQuery() gets the
+  query component of the URI. Then the three split() is used to split the query three times to get
+  the two key components, userName and stringInfo that compose the message output.
+  
+Which methods in your code are called?
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 ![image](pic2.png)
+- Method String handleRequest(URI URL) is called
+- The argument to this method is the URI object named url. The relevant field of this class is
+  the String message, which is used to accumulate the inputs for different users.
+- In this specific request, a "/add-message" path is received. String message changed from
+  "jpolitz: Hello" to jpolitz: Hello \n yash: How+are+you" because a new userName and stringInfo
+  is appended into String message.
 
 
