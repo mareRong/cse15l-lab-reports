@@ -37,8 +37,7 @@ class ChatServer {
 
 **Screenshot Result**
 ![image](pic1.png)
+
 ![image](pic2.png)
-![image](pic3.png)
-![image](pic4.png)
 
 
