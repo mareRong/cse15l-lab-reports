@@ -60,6 +60,13 @@ class ChatServer {
   is split from the path and appended into a String message.
 
 # Part 2
+![image](absolutePath.png)
+![image](lsCommand.png)
+![image](login.png)
 
-![image](pic4.png)
+# Part 3
+In the past two weeks, I learned how to create and code my own server and open up a new port.
+I also learned the different components of a URL, such as path and query. 
+
+
 
