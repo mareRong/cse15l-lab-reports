@@ -22,7 +22,8 @@ directory as default.
 } 
 ```
 
-The directory changed from /home to /home/lecture1 because we ran a command to change the directory with a path to lecture1.
+The directory changed from /home to /home/lecture1 because we ran a cd command to change the directory with a path to 
+lecture1.
 
 **With a path to a file**
 ```
@@ -56,7 +57,7 @@ command listed out the files within the working directory we are currently in.
 ```
 
 The working directory is /home/lecture1. The command listed out all files that are within the directory messages because
-we inputted a path to a new directory for the command to list files in the asked directory.
+we input a path to a new directory for the command to list files in the asked directory.
 
 **With a path to a file**
 ```
